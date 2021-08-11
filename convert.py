@@ -4,7 +4,7 @@ class SubwayProlog():
   def __init__(self):
     self.prolog = Prolog()
     # import prolog file
-    self.prolog.consult("ChewKitWayeAndrel_qn_3.pl") 
+    self.prolog.consult("prolog.pl") 
     self.prologRetract()
 
   # update counter and convert result into a list
